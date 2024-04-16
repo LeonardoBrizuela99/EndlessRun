@@ -1,0 +1,4 @@
+﻿  main.cpp
+main.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __thiscall sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVlocale@3@@Z) sin resolver al que se hace referencia en la función _main
+main.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ) sin resolver al que se hace referencia en la función _main
+C:\Users\Aula 1\Desktop\Laboratorio\Debug\Laboratorio.exe : fatal error LNK1120: 2 externos sin resolver
