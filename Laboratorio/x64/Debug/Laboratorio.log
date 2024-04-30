@@ -1,3 +1,1 @@
-﻿main.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) sin resolver al que se hace referencia en la función main
-main.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función main
-C:\Users\Aula 1\Desktop\EndlessRun\x64\Debug\Laboratorio.exe : fatal error LNK1120: 2 externos sin resolver
+﻿  Laboratorio.vcxproj -> C:\Users\Aula 1\Desktop\EndlessRun\x64\Debug\Laboratorio.exe
