@@ -1,7 +1,8 @@
-xcopy "%CD%\sfml-audio-d-2.dll" "%CD%\bin\Debug\" /y /i
-xcopy "%CD%\sfml-graphics-d-2.dll" "%CD%\bin\Debug\" /y /i
-xcopy "%CD%\sfml-network-d-2.dll" "%CD%\bin\Debug\" /y /i
-xcopy "%CD%\sfml-system-d-2.dll" "%CD%\bin\Debug\" /y /i
-xcopy "%CD%\sfml-window-d-2.dll" "%CD%\bin\Debug\" /y /i
+set origenDebug="C:\Users\Aula 1\Desktop\EndlessRun\SFML\dlls\x86\debug"
+set origenRelease="C:\Users\Aula 1\Desktop\EndlessRun\SFML\dlls\x86\release"
 
+set debug="C:\Users\Aula 1\Desktop\EndlessRun\Debug"
+set release="C:\Users\Aula 1\Desktop\EndlessRun\Release"
 
+copy %origenDebug%\*.dll %debug%
+copy %origenRelease%\*.dll %release%
